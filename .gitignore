@@ -1,2 +1,18 @@
 ﻿.vscode/
 fluffychat/
+
+# Infra secrets/runtime
+infra/.env
+infra/.certs
+infra/volumes/*
+!infra/volumes/.gitkeep
+infra/volumes/postgres/*
+!infra/volumes/postgres/.gitkeep
+infra/volumes/synapse/*
+!infra/volumes/synapse/.gitkeep
+infra/volumes/certs/*
+!infra/volumes/certs/.gitkeep
+
+# Python cache artifacts
+__pycache__/
+*.pyc
