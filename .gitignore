@@ -16,3 +16,7 @@ infra/volumes/certs/*
 # Python cache artifacts
 __pycache__/
 *.pyc
+
+# Local planning docs (not for git)
+TODO.md
+TZ.md
