@@ -1,5 +1,6 @@
 ﻿.vscode/
 fluffychat/
+synapse/
 
 # Infra secrets/runtime
 infra/.env
